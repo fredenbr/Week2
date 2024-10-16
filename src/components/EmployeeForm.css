@@ -1,0 +1,22 @@
+.App {
+  text-align: left; /* Changed to left alignment */
+}
+
+.App-header {
+  background-color: #006400; /* Changed to dark green */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-left: 20px; /* Added some padding for better spacing on the left */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  text-align: left; /* Ensure links are aligned to the left */
+}
+
+/* Remove the keyframes and the App-logo styles if not needed */
